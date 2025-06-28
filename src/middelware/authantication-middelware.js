@@ -1,6 +1,6 @@
-import blacklisttokenmodel from "../../../../db/models/blacklisttoken-model.js"
+import blacklisttokenmodel from "../db/models/blacklisttoken-model.js"
 import jwt from "jsonwebtoken"
-import usermodel from "../../../../db/models/user-model.js"
+import usermodel from "../db/models/user-model.js"
 
 
 export const authanticationMiddleware=()=>{

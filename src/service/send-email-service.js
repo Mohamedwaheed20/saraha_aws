@@ -6,8 +6,9 @@ export const sendEmailService=async(
         to,
         subject,
         html
-    }
+    }                                                                                                                                                                   
 )=>{
+
     try {
         const transporter=nodemailer.createTransport({
             host:"smtp.gmail.com",
@@ -25,7 +26,7 @@ export const sendEmailService=async(
             html
         })
 
-return info
+    return info 
         
     } catch (error) {
         console.log(error);

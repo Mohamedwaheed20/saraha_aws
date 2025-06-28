@@ -1,5 +1,5 @@
 import authRouter from "../moudels/auth-moudel/auth-controller.js";
-import { globalErrorHandler } from "../moudels/auth-moudel/service/middelware/error-handler-middelware.js";
+import { globalErrorHandler } from "../middelware/error-handler-middelware.js";
 import userRouter from "../moudels/user-moudel/user.controller.js";
 import messageRouter from "../moudels/message/message-controller.js";
 
